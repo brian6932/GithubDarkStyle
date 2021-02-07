@@ -94,7 +94,6 @@
   .border {
     border: 1px solid var(--box-color) !important;
   }
-  .js-calendar-graph-svg,
   .legend {
     filter: invert(1) hue-rotate(288deg) brightness(1) saturate(0.3) contrast(1);
   }
