@@ -17,4 +17,4 @@ _A minmal and clean dark theme for github_
 
 *step 2*:
 
-- [Click to  Install the usercss script](https://raw.githubusercontent.com/Ziyadsk/GithubDarkStyle/master/styles/githubDarkStyle.user.css)
+- [Click to  Install the usercss script](https://raw.githubusercontent.com/brian6932/GithubDarkStyle/master/styles/githubDarkStyle.user.css)
