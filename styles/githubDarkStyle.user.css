@@ -2,9 +2,9 @@
 @name           GithubDarkStyle
 @version        1.0.7
 @description    A dark theme for github
-@author         ziyadsk
-@namespace      https://github.com/ziyadsk
-@updateURL      https://github.com/Ziyadsk/GithubDarkStyle/blob/master/styles/githubDarkStyle.user.css
+@author         brian6932
+@namespace      https://github.com/brian6932
+@updateURL      https://github.com/brian6932/GithubDarkStyle/blob/master/styles/githubDarkStyle.user.css
 @license        MIT
 ==/UserStyle== */
 @-moz-document domain("github.com") {
@@ -1160,10 +1160,10 @@
   tab-container {
     border: 1px solid var(--input-color);
   }
-}
   .color-bg-secondary.pt-3.hide-full-screen.mb-5 {
     background-color: var(--main-background-color) !important;
   }
   .d-sm-flex.Box.mb-3.Box-body.color-bg-secondary {
     background-color: var(--box-color) !important;
+  }
   }
