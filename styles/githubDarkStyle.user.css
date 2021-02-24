@@ -94,6 +94,7 @@
   .border {
     border: 1px solid var(--box-color) !important;
   }
+  
   .legend {
     filter: invert(1) hue-rotate(288deg) brightness(1) saturate(0.3) contrast(1);
   }
@@ -1066,7 +1067,7 @@
     background-color: var(--link-color);
   }
   .comment-reactions-options .reaction-summary-item:first-child {
-    background-color: var(---input-color);
+    background-color: var(--input-color);
     color: var(--link-color-hover);
     border: none;
   }
@@ -1160,3 +1161,9 @@
     border: 1px solid var(--input-color);
   }
 }
+  .color-bg-secondary.pt-3.hide-full-screen.mb-5 {
+    background-color: var(--main-background-color) !important;
+  }
+  .d-sm-flex.Box.mb-3.Box-body.color-bg-secondary {
+    background-color: var(--box-color) !important;
+  }
