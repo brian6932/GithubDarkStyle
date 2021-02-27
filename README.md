@@ -1,5 +1,9 @@
 ![](assets/gds.png)
 
+## Disclaimer
+
+_Use with the native GitHub dark theme, not by itself_
+
 ## GithubDarkStyle
 
 _A minmal and clean dark theme for github_
