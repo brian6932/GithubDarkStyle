@@ -6,7 +6,7 @@ _Use with the native GitHub dark theme, not by itself_
 
 ## GithubDarkStyle
 
-_A minmal and clean dark theme for github_
+_A minmal and clean dark theme for GitHub_
 
 ![](assets/profile-screenshot.png)
 ![](assets/org-screenshot.png)
