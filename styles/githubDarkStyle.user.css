@@ -1160,7 +1160,7 @@
   tab-container {
     border: 1px solid var(--input-color);
   }
-   .color-bg-secondary.pt-3.hide-full-screen.mb-5, span.color-bg-canvas.pl-2.pr-3,.Progress.mt-1.tooltipped.tooltipped-n.color-bg-primary, .js-profile-timeline-year-list.color-bg-primary.js-sticky, .js-commit-preview.commit-preview {
+   .color-bg-secondary.pt-3.hide-full-screen.mb-5, span.color-bg-canvas.pl-2.pr-3,.Progress.mt-1.tooltipped.tooltipped-n.color-bg-primary, .js-profile-timeline-year-list.color-bg-primary.js-sticky, .js-commit-preview.commit-preview , .file.js-code-editor    {
     background-color: var(--main-background-color) !important;
   }
   .d-sm-flex.Box.mb-3.Box-body.color-bg-secondary {
