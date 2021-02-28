@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           GithubDarkStyle
-@version        1.0.7
+@version        1.0.8
 @description    A dark theme for github
 @author         brian6932
 @namespace      https://github.com/brian6932
@@ -24,9 +24,10 @@
     --text-color-dark: #aaa;
     --text-color-light: #eee;
     --submit-button-color: #0e800d;
+    --highlight-color: #212830;
   }
-  body {
-    background-color: var(--main-background-color);
+  body, html {
+    background-color: var(--main-background-color) !important;
   }
   * {
     box-shadow: 0px 0px 0px 0px;
@@ -38,9 +39,38 @@
   main#js-pjax-container > * {
     background-color: var(--main-background-color) !important;
   }
+  
+    .Box color-shadow-large.Popover-message--bottom-left{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-shadow: var(--color-shadow-large)!important;
+
+    }  
   .Box {
     background-color: var(--box-color);
+  } 
+  #dashboard > div > div.mt-2.mb-4.js-recent-activity-container.Details.js-details-container > div, body > div.application-main > main > div.position-relative.container-lg.p-responsive.pt-6 > div, #sponsorable-dependencies > div > div.mt-5 > div, .Box-body, .Box.mb-3, .Box.md, .Box.p-3.mt-2, lmt-2.mb-4.js-recent-activity-container.Details.js-details-container, .mt-2.mb-4.js-recent-activity-container.Details.js-details-container, li.Box-row.d-flex.p-2, .Box.pinned-item-list-item, .Box.p-3, button.btn.btn-block.mb-3.js-profile-editable-edit-button, a.btn.btn-sm.btn-outline.mr-2, .Box.color-shadow-small, .Box-footer, .Box.Box--condensed, form.Popover-message.text-left{
+    border: none !important;
+  } 
+  .Box-header {
+    border-bottom: 0px;
+    background-color: #1a1e26 !important ;
     border: none;
+  }
+  .Box-body {
+    border-bottom: none !important ;
+  }
+  .Box-body.comment-body.markdown-body.position-relative.overflow-hidden.pt-3 {
+    border-bottom: 0px;
+    max-height: 400px !important;
+  }
+  .Box-body > div.position-absolute {
+    background: none !important;
+    background-color: var(--main-background-color) !important;
+
+    color: red;
   }
   span.repo {
     font-size: 1.2em;
@@ -177,10 +207,6 @@
     margin-top: 0px !important ;
     padding-top: 1em;
   }
-
-  .Box {
-    background-color: var(--box-color);
-  }
   .border-bottom {
     border-bottom: 0px !important;
   }
@@ -242,24 +268,6 @@
     color: #999;
   }
 
-  .Box-header {
-    border-bottom: 0px;
-    background-color: #1a1e26 !important ;
-    border: none;
-  }
-  .Box-body {
-    border-bottom: none !important ;
-  }
-  .Box-body.comment-body.markdown-body.position-relative.overflow-hidden.pt-3 {
-    border-bottom: 0px;
-    max-height: 400px !important;
-  }
-  .Box-body > div.position-absolute {
-    background: none !important;
-    background-color: var(--main-background-color) !important;
-
-    color: red;
-  }
 
   pre {
     background-color: var(--input-color) !important;
@@ -277,8 +285,8 @@
     margin-top: 2em;
   }
 
-  .activity-overview-box * {
-  }
+  /*.activity-overview-box * {
+  }*/
   span.tooltipped.tooltipped-s {
     filter: invert(1) hue-rotate(288deg) brightness(1) saturate(0.3)
       drop-shadow(2px 4px 6px black) contrast(1);
@@ -512,7 +520,7 @@
   a[data-hydro-click] {
     font-size: 1em;
   }
-  img.avatar-user {
+  img.avatar-user.avatar.avatar--small  {
     height: 2em;
     width: 2em;
     margin-right: 0.5em;
@@ -674,7 +682,7 @@
     background-color: var(--main-background-color);
     border-top: none;
     border-radius: 0px 0px 10px 10px;
-    border: 1px solid var(--dark-link-color);
+    border: 1px solid var(--highlight-color);
     padding: 1em;
   }
   .comment-body.markdown-body.soft-wrap.js-comment-body {
@@ -693,10 +701,9 @@
     background-color: var(--box-color);
     border-bottom: none;
     color: #ddd;
-    border: 1px solid var(--input-color);
   }
   .timeline-comment-header {
-    border: 1px solid var(--dark-link-color);
+    border: 1px solid var(--highlight-color);
     border-bottom: none;
     background-color: var(--input-color);
   }
@@ -725,9 +732,6 @@
     height: 32px;
     border: 1px solid;
     margin-right: 1em;
-  }
-  .TimelineItem:before {
-    background-color: slategray;
   }
   .gh-header-meta {
     border-bottom: none;
@@ -786,12 +790,6 @@
   }
   .bg-gray-light.pt-3.hide-full-screen.mb-5 {
     background-color: var(--main-background-color) !important;
-  }
-  .Popover-message {
-    box-shadow: 0px 0px 0px 0px !important;
-    background-color: var(--header-background-color);
-    padding: 0.5em 0em;
-    border: 1px solid;
   }
   .box-shadow--large {
     box-shadow: 0px 0px 0px 0px !important;
@@ -881,9 +879,6 @@
   .topic-tag-link:hover {
     background-color: var(--box-color);
   }
-  .upload-enabled {
-    border: 1px solid var(--text-color);
-  }
   .tint-box.graph-canvas {
     background-color: var(--box-color) !important;
   }
@@ -891,7 +886,7 @@
     background-color: transparent;
   }
   .timeline-comment.current-user {
-    border-color: none !important;
+    border-color: transparent !important;
   }
   .notifications-list-item:hover {
     background-color: var(--input-color) !important;
@@ -997,18 +992,17 @@
   .commit-ref a {
     color: var(--text-color);
   }
-  .css-truncate.css-truncate-target,
+/*  .css-truncate.css-truncate-target,
   .css-truncate .css-truncate-target {
     /* will break another page */
-    /*color: var(--text-color-light) ;*/
-  }
+    /*color: var(--text-color-light) ;
+  }*/
   .gh-header-meta .TableObject-item--primary {
     display: inline-block;
     color: var(--text-color) !important;
   }
   .base-ref {
     background-color: var(--link-color);
-    color: var(--text-color);
     color: var(--text-color);
   }
   .blob-code-addition {
@@ -1066,17 +1060,12 @@
   .menu-item[aria-selected="true"]:before {
     background-color: var(--link-color);
   }
-  .comment-reactions-options .reaction-summary-item:first-child {
+  .comment-reactions-options{
     background-color: var(--input-color);
     color: var(--link-color-hover);
     border: none;
   }
 
-  .Popover-message--bottom-left:after,
-  .Popover-message--bottom-right:after,
-  .Popover-message--bottom:after {
-    border-top-color: var(--box-color) !important;
-  }
   .full-commit {
     background-color: var(--header-background-color);
     color: var(--text-color);
@@ -1160,10 +1149,19 @@
   tab-container {
     border: 1px solid var(--input-color);
   }
-   .color-bg-secondary.pt-3.hide-full-screen.mb-5, span.color-bg-canvas.pl-2.pr-3,.Progress.mt-1.tooltipped.tooltipped-n.color-bg-primary, .js-profile-timeline-year-list.color-bg-primary.js-sticky, .js-commit-preview.commit-preview , .file.js-code-editor    {
+  .color-bg-secondary.pt-3.hide-full-screen.mb-5, span.color-bg-canvas.pl-2.pr-3,.Progress.mt-1.tooltipped.tooltipped-n.color-bg-primary, .js-profile-timeline-year-list.color-bg-primary.js-sticky, .js-commit-preview.commit-preview, .file.js-code-editor, .d-flex.d-lg-block.flex-items-center, h3.h4-mktg.my-3, h3.h4-mktg, .border.rounded-1.color-shadow-medium.color-bg-primary, .border-bottom.color-bg-primary,  .color-bg-secondary{
     background-color: var(--main-background-color) !important;
   }
-  .d-sm-flex.Box.mb-3.Box-body.color-bg-secondary {
+  .d-sm-flex.Box.mb-3.Box-body.color-bg-secondary, button.btn.btn-sm.tooltipped, article.my-4,  .border-top.color-bg-primary.p-3, .gh-header-shadow, a.notifications-dropdown-see-all, .topic-box.position-relative.hover-grow.height-full.text-center.border.color-border-secondary.rounded-1.color-bg-primary.p-5, .Popover-message.text-left.p-4.mt-2.mx-auto.Box.color-shadow-large.js-notice-dismiss, button.position.absolute.top-0.right-0.hover-grow.mt-3.mr-3.tooltipped.tooltipped-n.color-bg-primary.js-toggler-target.unstarred.js-remote-submit-button, .color-bg-info.f4.color-text-tertiary.text-bold.rounded-1.mr-3.flex-shrink-0.text-center, .color-bg-info.f4.color-text-tertiary.text-bold.rounded-1.flex-shrink-0.text-center, button.position-absolute.top-0.right-0.hover-grow.mt-3.mr-3.tooltipped.tooltipped-n.color-bg-primary.js-toggler-target.unstarred.js-remote-submit-button   {
     background-color: var(--box-color) !important;
+  }
+     .tabnav.px-3.mb-0{
+    background-color: var(--header-background-color) !important;
+  }
+    .notifications-dropdown-arrow{
+        border-bottom-color:var(--main-background-color);
+  }
+    .position-absolute.right-0.left-0.bottom-0.text-center.mb-n3{
+        background: linear-gradient(to top, #171A20, #11121600) !important;
   }
   }
