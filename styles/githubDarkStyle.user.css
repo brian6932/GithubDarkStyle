@@ -51,7 +51,7 @@
   .Box {
     background-color: var(--box-color);
   } 
-  #dashboard > div > div.mt-2.mb-4.js-recent-activity-container.Details.js-details-container > div, body > div.application-main > main > div.position-relative.container-lg.p-responsive.pt-6 > div, #sponsorable-dependencies > div > div.mt-5 > div, .Box-body, .Box.mb-3, .Box.md, .Box.p-3.mt-2, lmt-2.mb-4.js-recent-activity-container.Details.js-details-container, .mt-2.mb-4.js-recent-activity-container.Details.js-details-container, li.Box-row.d-flex.p-2, .Box.pinned-item-list-item, .Box.p-3, button.btn.btn-block.mb-3.js-profile-editable-edit-button, a.btn.btn-sm.btn-outline.mr-2, .Box.color-shadow-small, .Box-footer, .Box.Box--condensed, form.Popover-message.text-left, .Box.mt-3, summary.btn, a.btn.btn-outline{
+  #dashboard > div > div.mt-2.mb-4.js-recent-activity-container.Details.js-details-container > div, body > div.application-main > main > div.position-relative.container-lg.p-responsive.pt-6 > div, #sponsorable-dependencies > div > div.mt-5 > div, .Box-body, .Box.mb-3, .Box.md, .Box.p-3.mt-2, lmt-2.mb-4.js-recent-activity-container.Details.js-details-container, .mt-2.mb-4.js-recent-activity-container.Details.js-details-container, li.Box-row.d-flex.p-2, .Box.pinned-item-list-item, .Box.p-3, button.btn.btn-block.mb-3.js-profile-editable-edit-button, a.btn.btn-sm.btn-outline.mr-2, .Box.color-shadow-small, .Box-footer, .Box.Box--condensed, form.Popover-message.text-left, .Box.mt-3, summary.btn, a.btn.btn-outline, button.btn.btn-block.btn-sm.thread-subscribe-button{
     border: none !important;
   } 
   .Box-header {
@@ -1149,7 +1149,7 @@
   tab-container {
     border: 1px solid var(--input-color);
   }
-  .color-bg-secondary.pt-3.hide-full-screen.mb-5, span.color-bg-canvas.pl-2.pr-3,.Progress.mt-1.tooltipped.tooltipped-n.color-bg-primary, .js-profile-timeline-year-list.color-bg-primary.js-sticky, .js-commit-preview.commit-preview, .file.js-code-editor, .d-flex.d-lg-block.flex-items-center, h3.h4-mktg.my-3, h3.h4-mktg, .border.rounded-1.color-shadow-medium.color-bg-primary, .border-bottom.color-bg-primary,  .color-bg-secondary{
+  .color-bg-secondary.pt-3.hide-full-screen.mb-5, span.color-bg-canvas.pl-2.pr-3,.Progress.mt-1.tooltipped.tooltipped-n.color-bg-primary, .js-profile-timeline-year-list.color-bg-primary.js-sticky, .js-commit-preview.commit-preview, .file.js-code-editor, .d-flex.d-lg-block.flex-items-center, h3.h4-mktg.my-3, h3.h4-mktg, .border.rounded-1.color-shadow-medium.color-bg-primary, .border-bottom.color-bg-primary,  .color-bg-secondary, .thread-subscription-status.js-socket-channel.js-updatable-content{
     background-color: var(--main-background-color) !important;
   }
   .d-sm-flex.Box.mb-3.Box-body.color-bg-secondary, button.btn.btn-sm.tooltipped, article.my-4,  .border-top.color-bg-primary.p-3, .gh-header-shadow, a.notifications-dropdown-see-all, .topic-box.position-relative.hover-grow.height-full.text-center.border.color-border-secondary.rounded-1.color-bg-primary.p-5, .Popover-message.text-left.p-4.mt-2.mx-auto.Box.color-shadow-large.js-notice-dismiss, button.position.absolute.top-0.right-0.hover-grow.mt-3.mr-3.tooltipped.tooltipped-n.color-bg-primary.js-toggler-target.unstarred.js-remote-submit-button, .color-bg-info.f4.color-text-tertiary.text-bold.rounded-1.mr-3.flex-shrink-0.text-center, .color-bg-info.f4.color-text-tertiary.text-bold.rounded-1.flex-shrink-0.text-center, button.position-absolute.top-0.right-0.hover-grow.mt-3.mr-3.tooltipped.tooltipped-n.color-bg-primary.js-toggler-target.unstarred.js-remote-submit-button, .Popover-message.Popover-message--large.Box.color-shadow-large{
@@ -1166,8 +1166,8 @@
   }
     .page-responsive .timeline-comment--caret:before{
         display:none;
-  }
+  }/*
     .page-responsive .timeline-comment--caret:after{
        color:var(--box-color) !important
-  }
+  }*/
   }
