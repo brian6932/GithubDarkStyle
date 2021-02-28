@@ -39,6 +39,11 @@
   main#js-pjax-container > * {
     background-color: var(--main-background-color) !important;
   }
+    summary.btn.btn-sm.rounded-right-0, button.btn.btn-sm.btn-with-count, span.btn.btn-sm.btn-with-count.disabled.tooltipped.tooltipped-sw, a.social-count{
+        border:none;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
   
     .Box color-shadow-large.Popover-message--bottom-left{
     border-bottom-left-radius: 6px;
@@ -51,9 +56,13 @@
   .Box {
     background-color: var(--box-color);
   } 
-  #dashboard > div > div.mt-2.mb-4.js-recent-activity-container.Details.js-details-container > div, body > div.application-main > main > div.position-relative.container-lg.p-responsive.pt-6 > div, #sponsorable-dependencies > div > div.mt-5 > div, .Box-body, .Box.mb-3, .Box.md, .Box.p-3.mt-2, lmt-2.mb-4.js-recent-activity-container.Details.js-details-container, .mt-2.mb-4.js-recent-activity-container.Details.js-details-container, li.Box-row.d-flex.p-2, .Box.pinned-item-list-item, .Box.p-3, button.btn.btn-block.mb-3.js-profile-editable-edit-button, a.btn.btn-sm.btn-outline.mr-2, .Box.color-shadow-small, .Box-footer, .Box.Box--condensed, form.Popover-message.text-left, .Box.mt-3, summary.btn, a.btn.btn-outline, button.btn.btn-block.btn-sm.thread-subscribe-button{
+ #security_analysis_bucket > div:nth-child(3) > div > div:nth-child(2) > div > form > button, #security_analysis_bucket > div:nth-child(4) > div > div:nth-child(2) > div > form > details > summary, #security_analysis_bucket > div.d-flex.flex-md-row.flex-column.flex-md-items-center.py-3.border-bottom.color-border-secondary > div:nth-child(2) > div > form > details > summary, #dashboard > div > div.mt-2.mb-4.js-recent-activity-container.Details.js-details-container > div, body > div.application-main > main > div.position-relative.container-lg.p-responsive.pt-6 > div, #sponsorable-dependencies > div > div.mt-5 > div, .Box-body, #repo-content-pjax-container > div > div.flex-shrink-0.col-12.col-md-9.mb-4.mb-md-0 > div.Subhead.hx_Subhead--responsive > div.Subhead-actions > a, #blob-more-options-details > summary, #type-options > summary, #language-options > summary, #user-repositories-list > ul > li > div.col-2.col-lg-3.d-flex.flex-column.flex-justify-around > div > div > form > button, li.Box-row.d-flex.p-2, #user-repositories-list > ul > li > div.col-2.col-lg-3.d-flex.flex-column.flex-justify-around > div > div > form > button, li.Box-row.d-flex.p-2, .Box.pinned-item-list-item, .Box.p-3, button.btn.btn-block.mb-3.js-profile-editable-edit-button, a.btn.btn-sm.btn-outline.mr-2, .Box.color-shadow-small, .Box-footer, .Box.Box--condensed, form.Popover-message.text-left, .Box.mt-3,  a.btn.btn-outline, button.btn.btn-block.btn-sm.thread-subscribe-button, a.btn.ml-2.d-none.d-md-block, summary.btn.ml-2, summary.btn.css-truncate, summary.btn.btn-primary, button.btn.flex-self-end, a.btn.btn-sm, button.btn.ml-1, button.btn.mt-3.ml-3, input.btn.btn-sm, input.btn.btn-block, button.btn.btn-outline.BtnGroup-item, button.btn.btn-sm.js-details-target.d-inline-block.float-none.m-0.mr-md-0, .Box.mb-3, .Box.md, a.btn.d-none.d-md-inline-block, a.text-center.btn.btn-primary.ml-3, a.btn.btn-sm.btn-primary.m-0.ml-2.ml-md-2, a.btn.btn-danger.flex-auto.text-center.mx-3.mx-md-0, button.btn.btn-primary.js-blob-submit.flex-auto.mx-3.ml-md-3.mr-md-0.ml-lg-0.mb-3.mb-md-0{
     border: none !important;
   } 
+    a.btn.ml-2.d-none.d-md-block, summary.btn.ml-2, summary.btn.css-truncate{
+        padding-top: 6px;
+        padding-bottom: 6px;
+    } 
   .Box-header {
     border-bottom: 0px;
     background-color: #1a1e26 !important ;
