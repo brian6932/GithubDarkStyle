@@ -29,10 +29,10 @@
     background-color: var(--main-background-color);
   }
   * {
-    box-shadow: 0px 0px 0px 0px !important ;
+    box-shadow: 0px 0px 0px 0px;
   }
   main#js-pjax-container {
-    background-color: var(--main-background-colo);
+    background-color: var(--main-background-color);
     color: #ccc;
   }
   main#js-pjax-container > * {
