@@ -734,12 +734,9 @@
     color: var(--link-hover-color) !important;
   }
   .TimelineItem--condensed .TimelineItem-badge {
-    margin-bottom: 8px;
-    color: #959da5;
     background-color: var(--main-background-color);
     padding: 0.3em !important;
     height: 32px;
-    border: 1px solid;
     margin-right: 1em;
   }
   .gh-header-meta {
