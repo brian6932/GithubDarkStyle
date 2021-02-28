@@ -1,12 +1,12 @@
 ![](assets/gds.png)
 
-## Disclaimer
-
-_Use with the native GitHub dark theme, not by itself_
-
 ## GithubDarkStyle
 
 _A minmal and clean dark theme for GitHub_
+
+### Disclaimer
+
+_Use with the native GitHub dark theme, not by itself_
 
 ![](assets/profile-screenshot.png)
 ![](assets/org-screenshot.png)
