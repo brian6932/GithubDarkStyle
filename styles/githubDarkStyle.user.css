@@ -39,24 +39,23 @@
   main#js-pjax-container > * {
     background-color: var(--main-background-color) !important;
   }
-    summary.btn.btn-sm.rounded-right-0, button.btn.btn-sm.btn-with-count, span.btn.btn-sm.btn-with-count.disabled.tooltipped.tooltipped-sw, a.social-count{
+    
+  #gist-pjax-container > div.gisthead.pagehead.color-bg-secondary.pb-0.pt-3.mb-4 > div > div.mb-3.d-flex.px-3.px-md-3.px-lg-5 > ul > li.d-lg-block.d-none > div > form > button, summary.btn.btn-sm.rounded-right-0, button.btn.btn-sm.btn-with-count, span.btn.btn-sm.btn-with-count.disabled.tooltipped.tooltipped-sw, a.social-count, summary#sponsor-button-repo.btn.btn-sm{
         border:none;
         padding-top: 4px;
         padding-bottom: 4px;
     }
-  
     .Box color-shadow-large.Popover-message--bottom-left{
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     box-shadow: var(--color-shadow-large)!important;
-
     }  
   .Box {
     background-color: var(--box-color);
   } 
- #security_analysis_bucket > div:nth-child(3) > div > div:nth-child(2) > div > form > button, #security_analysis_bucket > div:nth-child(4) > div > div:nth-child(2) > div > form > details > summary, #security_analysis_bucket > div.d-flex.flex-md-row.flex-column.flex-md-items-center.py-3.border-bottom.color-border-secondary > div:nth-child(2) > div > form > details > summary, #dashboard > div > div.mt-2.mb-4.js-recent-activity-container.Details.js-details-container > div, body > div.application-main > main > div.position-relative.container-lg.p-responsive.pt-6 > div, #sponsorable-dependencies > div > div.mt-5 > div, .Box-body, #repo-content-pjax-container > div > div.flex-shrink-0.col-12.col-md-9.mb-4.mb-md-0 > div.Subhead.hx_Subhead--responsive > div.Subhead-actions > a, #blob-more-options-details > summary, #type-options > summary, #language-options > summary, #user-repositories-list > ul > li > div.col-2.col-lg-3.d-flex.flex-column.flex-justify-around > div > div > form > button, li.Box-row.d-flex.p-2, #user-repositories-list > ul > li > div.col-2.col-lg-3.d-flex.flex-column.flex-justify-around > div > div > form > button, body > div.notifications-v2.notification-shelf.js-notification-shelf.js-notification-top-shelf.js-sticky.js-position-sticky.top-0.flash.flash-full.mt-0.border-top-0.overflow-x-hidden > div > ul.flex-items-center.list-style-none.d-none.d-md-flex > li.js-notification-action.notification-action-mark-archived.mr-2 > span > form > button, body > div.notifications-v2.notification-shelf.js-notification-shelf.js-notification-top-shelf.js-sticky.js-position-sticky.top-0.flash.flash-full.mt-0.border-top-0.overflow-x-hidden > div > ul.flex-items-center.list-style-none.d-none.d-md-flex > li.js-notification-action.notification-action-unsubscribe.mr-2 > span > form > button, body > div.notifications-v2.notification-shelf.js-notification-shelf.js-notification-top-shelf.js-sticky.js-position-sticky.top-0.flash.flash-full.mt-0.border-top-0.overflow-x-hidden > div > ul.flex-items-center.list-style-none.d-none.d-md-flex > li.js-notification-action.notification-action-mark-unread.mr-2 > span > form > button, body > div.notifications-v2.notification-shelf.js-notification-shelf.js-notification-top-shelf.js-sticky.js-position-sticky.top-0.flash.flash-full.mt-0.border-top-0.overflow-x-hidden > div > ul.flex-items-center.list-style-none.d-none.d-md-flex > li.js-notification-action.notification-action-star > span > form > button, li.Box-row.d-flex.p-2, .Box.pinned-item-list-item, .Box.p-3, button.btn.btn-block.mb-3.js-profile-editable-edit-button, a.btn.btn-sm.btn-outline.mr-2, .Box.color-shadow-small, .Box-footer, .Box.Box--condensed, form.Popover-message.text-left, .Box.mt-3,  a.btn.btn-outline, button.btn.btn-block.btn-sm.thread-subscribe-button, a.btn.ml-2.d-none.d-md-block, summary.btn.ml-2, summary.btn.css-truncate, summary.btn.btn-primary, button.btn.flex-self-end, a.btn.btn-sm, button.btn.ml-1, button.btn.mt-3.ml-3, input.btn.btn-sm, input.btn.btn-block, button.btn.btn-outline.BtnGroup-item, button.btn.btn-sm.js-details-target.d-inline-block.float-none.m-0.mr-md-0, .Box.mb-3, .Box.md, a.btn.d-none.d-md-inline-block, a.text-center.btn.btn-primary.ml-3, a.btn.btn-sm.btn-primary.m-0.ml-2.ml-md-2, a.btn.btn-danger.flex-auto.text-center.mx-3.mx-md-0, button.btn.btn-primary.js-blob-submit.flex-auto.mx-3.ml-md-3.mr-md-0.ml-lg-0.mb-3.mb-md-0, a.js-pjax-capture-input.btn.mr-2.d-none.d-md-block, a.btn.mr-2.d-none.d-md-block, span.btn.d-none.d-md-flex.flex-items-center, summary.btn.d-none.d-md-block.ml-md-2, button.js-file-clipboard.btn.btn-sm.BtnGroup-item.file-clipboard-button.tooltipped.tooltipped-s.js-enhanced-github-copy-btn {
+ #security_analysis_bucket > div:nth-child(3) > div > div:nth-child(2) > div > form > button, #security_analysis_bucket > div:nth-child(4) > div > div:nth-child(2) > div > form > details > summary, #security_analysis_bucket > div.d-flex.flex-md-row.flex-column.flex-md-items-center.py-3.border-bottom.color-border-secondary > div:nth-child(2) > div > form > details > summary, #dashboard > div > div.mt-2.mb-4.js-recent-activity-container.Details.js-details-container > div, body > div.application-main > main > div.position-relative.container-lg.p-responsive.pt-6 > div, #sponsorable-dependencies > div > div.mt-5 > div, .Box-body, #repo-content-pjax-container > div > div.flex-shrink-0.col-12.col-md-9.mb-4.mb-md-0 > div.Subhead.hx_Subhead--responsive > div.Subhead-actions > a, #blob-more-options-details > summary, #type-options > summary, #language-options > summary, #user-repositories-list > ul > li > div.col-2.col-lg-3.d-flex.flex-column.flex-justify-around > div > div > form > button, li.Box-row.d-flex.p-2, #user-repositories-list > ul > li > div.col-2.col-lg-3.d-flex.flex-column.flex-justify-around > div > div > form > button, body > div.notifications-v2.notification-shelf.js-notification-shelf.js-notification-top-shelf.js-sticky.js-position-sticky.top-0.flash.flash-full.mt-0.border-top-0.overflow-x-hidden > div > ul.flex-items-center.list-style-none.d-none.d-md-flex > li.js-notification-action.notification-action-mark-archived.mr-2 > span > form > button, body > div.notifications-v2.notification-shelf.js-notification-shelf.js-notification-top-shelf.js-sticky.js-position-sticky.top-0.flash.flash-full.mt-0.border-top-0.overflow-x-hidden > div > ul.flex-items-center.list-style-none.d-none.d-md-flex > li.js-notification-action.notification-action-unsubscribe.mr-2 > span > form > button, body > div.notifications-v2.notification-shelf.js-notification-shelf.js-notification-top-shelf.js-sticky.js-position-sticky.top-0.flash.flash-full.mt-0.border-top-0.overflow-x-hidden > div > ul.flex-items-center.list-style-none.d-none.d-md-flex > li.js-notification-action.notification-action-mark-unread.mr-2 > span > form > button, body > div.notifications-v2.notification-shelf.js-notification-shelf.js-notification-top-shelf.js-sticky.js-position-sticky.top-0.flash.flash-full.mt-0.border-top-0.overflow-x-hidden > div > ul.flex-items-center.list-style-none.d-none.d-md-flex > li.js-notification-action.notification-action-star > span > form > button, li.Box-row.d-flex.p-2, .Box.pinned-item-list-item, .Box.p-3, button.btn.btn-block.mb-3.js-profile-editable-edit-button, a.btn.btn-sm.btn-outline.mr-2, .Box.color-shadow-small, .Box-footer, .Box.Box--condensed, form.Popover-message.text-left, .Box.mt-3,  a.btn.btn-outline, button.btn.btn-block.btn-sm.thread-subscribe-button, a.btn.ml-2.d-none.d-md-block, summary.btn.ml-2, summary.btn.css-truncate, summary.btn.btn-primary, button.btn.flex-self-end, a.btn.btn-sm, button.btn.ml-1, button.btn.mt-3.ml-3, input.btn.btn-sm, input.btn.btn-block, button.btn.btn-outline.BtnGroup-item, button.btn.btn-sm.js-details-target.d-inline-block.float-none.m-0.mr-md-0, .Box.mb-3, .Box.md, a.btn.d-none.d-md-inline-block, a.text-center.btn.btn-primary.ml-3, a.btn.btn-sm.btn-primary.m-0.ml-2.ml-md-2, a.btn.btn-danger.flex-auto.text-center.mx-3.mx-md-0, button.btn.btn-primary.js-blob-submit.flex-auto.mx-3.ml-md-3.mr-md-0.ml-lg-0.mb-3.mb-md-0, a.js-pjax-capture-input.btn.mr-2.d-none.d-md-block, a.btn.mr-2.d-none.d-md-block, span.btn.d-none.d-md-flex.flex-items-center, summary.btn.d-none.d-md-block.ml-md-2, button.js-file-clipboard.btn.btn-sm.BtnGroup-item.file-clipboard-button.tooltipped.tooltipped-s.js-enhanced-github-copy-btn, .Box.mt-4, .file.js-code-editor.container-preview.mx-lg-3.show-code, .file{
     border: none !important;
   } 
     a.btn.ml-2.d-none.d-md-block, summary.btn.ml-2, summary.btn.css-truncate{
@@ -529,7 +528,7 @@
   a[data-hydro-click] {
     font-size: 1em;
   }
-  img.avatar-user.avatar.avatar--small  {
+  img.avatar-user.avatar.avatar--small, img.avatar.avatar-user  {
     height: 2em;
     width: 2em;
     margin-right: 0.5em;
@@ -652,7 +651,7 @@
   .Subhead {
     border-bottom: none;
   }
-  hr {
+  hr, hr::before, hr::after {
     background-color: var(--input-color);
     color: transparent !important;
     height: 0.3px;
@@ -1176,4 +1175,8 @@
     .page-responsive .timeline-comment--caret:after{
        color:var(--box-color) !important
   }*/
+    .avatar{
+        line-height:0px;
+        box-shadow:none;
+    }
   }
