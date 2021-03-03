@@ -55,7 +55,7 @@
   .Box {
     background-color: var(--box-color);
   } 
- #security_analysis_bucket > div:nth-child(3) > div > div:nth-child(2) > div > form > button, #security_analysis_bucket > div:nth-child(4) > div > div:nth-child(2) > div > form > details > summary, #security_analysis_bucket > div.d-flex.flex-md-row.flex-column.flex-md-items-center.py-3.border-bottom.color-border-secondary > div:nth-child(2) > div > form > details > summary, #dashboard > div > div.mt-2.mb-4.js-recent-activity-container.Details.js-details-container > div, body > div.application-main > main > div.position-relative.container-lg.p-responsive.pt-6 > div, #sponsorable-dependencies > div > div.mt-5 > div, .Box-body, #repo-content-pjax-container > div > div.flex-shrink-0.col-12.col-md-9.mb-4.mb-md-0 > div.Subhead.hx_Subhead--responsive > div.Subhead-actions > a, #blob-more-options-details > summary, #type-options > summary, #language-options > summary, #user-repositories-list > ul > li > div.col-2.col-lg-3.d-flex.flex-column.flex-justify-around > div > div > form > button, li.Box-row.d-flex.p-2, #user-repositories-list > ul > li > div.col-2.col-lg-3.d-flex.flex-column.flex-justify-around > div > div > form > button, body > div.notifications-v2.notification-shelf.js-notification-shelf.js-notification-top-shelf.js-sticky.js-position-sticky.top-0.flash.flash-full.mt-0.border-top-0.overflow-x-hidden > div > ul.flex-items-center.list-style-none.d-none.d-md-flex > li.js-notification-action.notification-action-mark-archived.mr-2 > span > form > button, body > div.notifications-v2.notification-shelf.js-notification-shelf.js-notification-top-shelf.js-sticky.js-position-sticky.top-0.flash.flash-full.mt-0.border-top-0.overflow-x-hidden > div > ul.flex-items-center.list-style-none.d-none.d-md-flex > li.js-notification-action.notification-action-unsubscribe.mr-2 > span > form > button, body > div.notifications-v2.notification-shelf.js-notification-shelf.js-notification-top-shelf.js-sticky.js-position-sticky.top-0.flash.flash-full.mt-0.border-top-0.overflow-x-hidden > div > ul.flex-items-center.list-style-none.d-none.d-md-flex > li.js-notification-action.notification-action-mark-unread.mr-2 > span > form > button, body > div.notifications-v2.notification-shelf.js-notification-shelf.js-notification-top-shelf.js-sticky.js-position-sticky.top-0.flash.flash-full.mt-0.border-top-0.overflow-x-hidden > div > ul.flex-items-center.list-style-none.d-none.d-md-flex > li.js-notification-action.notification-action-star > span > form > button, #partial-discussion-header > div.gh-header-show > div > div > details > summary, input.btn.btn-block, button.btn.btn-outline.BtnGroup-item, #partial-discussion-sidebar > div.discussion-sidebar-item.sidebar-notifications > div > form > button, .Box.pinned-item-list-item, #js-pjax-container > div > div.d-flex.flex-md-row.flex-column.px-md-0.px-3 > div.col-md-9.col-12 > form > button, #user_profile_contributions_18603393 > button, #jobs_profile_18603393 > button, #trending_settings_18603393 > input.btn, #js-pjax-container > div > div.d-flex.flex-md-row.flex-column.px-md-0.px-3 > div.col-md-9.col-12 > form:nth-child(8) > input.btn, #rename-warning-dialog > summary, #js-pjax-container > div > div.d-flex.flex-md-row.flex-column.px-md-0.px-3 > div.col-md-9.col-12 > div.Box, #change_password > p > button, #js-pjax-container > div > div.d-flex.flex-md-row.flex-column.px-md-0.px-3 > div.col-md-9.col-12 > div:nth-child(3) > div.Box-header.billing-box-header.color-bg-secondary.d-flex.flex-items-center > details > summary, li.Box-row.d-flex.p-2, #js-pjax-container > div > div.d-flex.flex-md-row.flex-column.px-md-0.px-3 > div.col-md-9.col-12 > div:nth-child(4) > div > details > summary, #audit-log-search > div.Box, #js-pjax-container > div > div.d-flex.flex-md-row.flex-column.px-md-0.px-3 > div.col-md-9.col-12 > div > div.d-flex.flex-justify-between.py-3 > div:nth-child(2) > div > form:nth-child(2) > div > details > summary, #js-pjax-container > div > div.d-flex.flex-md-row.flex-column.px-md-0.px-3 > div.col-md-9.col-12 > details > summary, #repo-content-pjax-container > div.Box, #repo-content-pjax-container > div.clearfix.py-3 > div.col-lg-4.col-md-5.col-sm-12.float-left.text-lg-right.text-md-right.text-sm-left.py-3 > a, #filters-select-menu > summary, #repo-content-pjax-container > div > div.gutter-condensed.gutter-lg.flex-column.flex-md-row.d-flex > div.flex-shrink-0.col-12.col-md-9.mb-4.mb-md-0 > div.file-navigation.mb-3.d-flex.flex-items-start > span > get-repo > details > div > div > div:nth-child(1) > div > tab-container, #repo-content-pjax-container > div.d-flex.flex-column.width-full > div > div > div > details > summary, .Box.p-3, #repo-content-pjax-container > div > div.flex-shrink-0.col-12.col-md-9.mb-4.mb-md-0 > div.Box, #repo-content-pjax-container > div > div.flex-shrink-0.col-9 > div.graph-filter.clearfix > div > div > details > summary, button.btn.btn-block.mb-3.js-profile-editable-edit-button, #js-visitors-graph > h3, #js-clones-graph > h3, #repo-content-pjax-container > div > div.flex-shrink-0.col-12.col-md-9.mb-4.mb-md-0 > div.Subhead.hx_Subhead--responsive > div > details > summary, #repo-content-pjax-container > div > div.flex-shrink-0.col-12.col-md-9.mb-4.mb-md-0 > div:nth-child(5) > div, a.btn.btn-sm.btn-outline.mr-2, .Box.color-shadow-small, #repo-content-pjax-container > div > div.gutter-condensed.gutter-lg.flex-column.flex-md-row.d-flex > div.flex-shrink-0.col-12.col-md-3 > div > div:nth-child(3) > div > a, #edit_header_820598511 > div > button.btn.mr-2, #js-repo-pjax-container > div > div.col-12.col-sm-12.col-md-9.col-lg-10.col-xl-10 > div > div.d-flex.flex-items-center.mt-0.mb-md-3.mb-0.px-2.px-sm-0 > details > summary, .Box-footer, .Box.Box--condensed, form.Popover-message.text-left, .Box.mt-3,  a.btn.ml-2.d-none.d-md-block, summary.btn.ml-2, summary.btn.css-truncate, summary.btn.btn-primary, button.btn.flex-self-end, a.btn.btn-sm, button.btn.ml-1, button.btn.mt-3.ml-3, input.btn.btn-sm, button.btn.btn-sm.js-details-target.d-inline-block.float-none.m-0.mr-md-0, .Box.mb-3, .Box.md, a.btn.d-none.d-md-inline-block, a.text-center.btn.btn-primary.ml-3, a.btn.btn-sm.btn-primary.m-0.ml-2.ml-md-2, a.btn.btn-danger.flex-auto.text-center.mx-3.mx-md-0, button.btn.btn-primary.js-blob-submit.flex-auto.mx-3.ml-md-3.mr-md-0.ml-lg-0.mb-3.mb-md-0, a.js-pjax-capture-input.btn.mr-2.d-none.d-md-block, a.btn.mr-2.d-none.d-md-block, span.btn.d-none.d-md-flex.flex-items-center, summary.btn.d-none.d-md-block.ml-md-2, button.js-file-clipboard.btn.btn-sm.BtnGroup-item.file-clipboard-button.tooltipped.tooltipped-s.js-enhanced-github-copy-btn, .Box.mt-4, .file.js-code-editor.container-preview.mx-lg-3.show-code, button.btn.btn-primary.BtnGroup-item.hx_create-pr-button.js-sync-select-menu-button, button.btn.float-left.js-add-gist-file, #js-issues-toolbar.Box.Box--responsive.hx_Box--firstRowRounded0, tab-container.js-previewable-comment-form.previewable-comment-form.write-selected, label.text-normal.drag-and-drop.hx_drag-and-drop.position-relative.d-flex.flex-justify-between, a.btn.width-full.text-center.mt-3, #user_profile_email, button.btn.js-add-new-user, input.btn.js-email-global-unsubscribe-submit, .Box.p-4.text-center, .saved-reply-form, .flash.flash-full.flash-error, #user_profile_spoken_language_preference_code, .gh-header-sticky.is-stuck+.gh-header-shadow, .range-editor.color-text-secondary.js-range-editor.is-cross-repo, .Box.Box--responsive, .Box.color-border-secondary.mb-2, .commit.full-commit.mt-0.px-2.pt-2, .Box.rounded-2, span.d-block.Box, .boxed-group-inner, .Box.border-top-0, .file.js-code-editor, .Box.color-bg-primary{
+ #security_analysis_bucket > div:nth-child(3) > div > div:nth-child(2) > div > form > button, #security_analysis_bucket > div:nth-child(4) > div > div:nth-child(2) > div > form > details > summary, #security_analysis_bucket > div.d-flex.flex-md-row.flex-column.flex-md-items-center.py-3.border-bottom.color-border-secondary > div:nth-child(2) > div > form > details > summary, #dashboard > div > div.mt-2.mb-4.js-recent-activity-container.Details.js-details-container > div, body > div.application-main > main > div.position-relative.container-lg.p-responsive.pt-6 > div, #sponsorable-dependencies > div > div.mt-5 > div, .Box-body, #repo-content-pjax-container > div > div.flex-shrink-0.col-12.col-md-9.mb-4.mb-md-0 > div.Subhead.hx_Subhead--responsive > div.Subhead-actions > a, #blob-more-options-details > summary, #type-options > summary, #language-options > summary, #user-repositories-list > ul > li > div.col-2.col-lg-3.d-flex.flex-column.flex-justify-around > div > div > form > button, li.Box-row.d-flex.p-2, #user-repositories-list > ul > li > div.col-2.col-lg-3.d-flex.flex-column.flex-justify-around > div > div > form > button, body > div.notifications-v2.notification-shelf.js-notification-shelf.js-notification-top-shelf.js-sticky.js-position-sticky.top-0.flash.flash-full.mt-0.border-top-0.overflow-x-hidden > div > ul.flex-items-center.list-style-none.d-none.d-md-flex > li.js-notification-action.notification-action-mark-archived.mr-2 > span > form > button, body > div.notifications-v2.notification-shelf.js-notification-shelf.js-notification-top-shelf.js-sticky.js-position-sticky.top-0.flash.flash-full.mt-0.border-top-0.overflow-x-hidden > div > ul.flex-items-center.list-style-none.d-none.d-md-flex > li.js-notification-action.notification-action-unsubscribe.mr-2 > span > form > button, body > div.notifications-v2.notification-shelf.js-notification-shelf.js-notification-top-shelf.js-sticky.js-position-sticky.top-0.flash.flash-full.mt-0.border-top-0.overflow-x-hidden > div > ul.flex-items-center.list-style-none.d-none.d-md-flex > li.js-notification-action.notification-action-mark-unread.mr-2 > span > form > button, body > div.notifications-v2.notification-shelf.js-notification-shelf.js-notification-top-shelf.js-sticky.js-position-sticky.top-0.flash.flash-full.mt-0.border-top-0.overflow-x-hidden > div > ul.flex-items-center.list-style-none.d-none.d-md-flex > li.js-notification-action.notification-action-star > span > form > button, #partial-discussion-header > div.gh-header-show > div > div > details > summary, input.btn.btn-block, button.btn.btn-outline.BtnGroup-item, #partial-discussion-sidebar > div.discussion-sidebar-item.sidebar-notifications > div > form > button, .Box.pinned-item-list-item, #js-pjax-container > div > div.d-flex.flex-md-row.flex-column.px-md-0.px-3 > div.col-md-9.col-12 > form > button, #user_profile_contributions_18603393 > button, #jobs_profile_18603393 > button, #trending_settings_18603393 > input.btn, #js-pjax-container > div > div.d-flex.flex-md-row.flex-column.px-md-0.px-3 > div.col-md-9.col-12 > form:nth-child(8) > input.btn, #rename-warning-dialog > summary, #js-pjax-container > div > div.d-flex.flex-md-row.flex-column.px-md-0.px-3 > div.col-md-9.col-12 > div.Box, #change_password > p > button, #js-pjax-container > div > div.d-flex.flex-md-row.flex-column.px-md-0.px-3 > div.col-md-9.col-12 > div:nth-child(3) > div.Box-header.billing-box-header.color-bg-secondary.d-flex.flex-items-center > details > summary, li.Box-row.d-flex.p-2, #js-pjax-container > div > div.d-flex.flex-md-row.flex-column.px-md-0.px-3 > div.col-md-9.col-12 > div:nth-child(4) > div > details > summary, #audit-log-search > div.Box, #js-pjax-container > div > div.d-flex.flex-md-row.flex-column.px-md-0.px-3 > div.col-md-9.col-12 > div > div.d-flex.flex-justify-between.py-3 > div:nth-child(2) > div > form:nth-child(2) > div > details > summary, #js-pjax-container > div > div.d-flex.flex-md-row.flex-column.px-md-0.px-3 > div.col-md-9.col-12 > details > summary, #repo-content-pjax-container > div.Box, #repo-content-pjax-container > div.clearfix.py-3 > div.col-lg-4.col-md-5.col-sm-12.float-left.text-lg-right.text-md-right.text-sm-left.py-3 > a, #filters-select-menu > summary, #repo-content-pjax-container > div > div.gutter-condensed.gutter-lg.flex-column.flex-md-row.d-flex > div.flex-shrink-0.col-12.col-md-9.mb-4.mb-md-0 > div.file-navigation.mb-3.d-flex.flex-items-start > span > get-repo > details > div > div > div:nth-child(1) > div > tab-container, #repo-content-pjax-container > div.d-flex.flex-column.width-full > div > div > div > details > summary, .Box.p-3, #repo-content-pjax-container > div > div.flex-shrink-0.col-12.col-md-9.mb-4.mb-md-0 > div.Box, #repo-content-pjax-container > div > div.flex-shrink-0.col-9 > div.graph-filter.clearfix > div > div > details > summary, button.btn.btn-block.mb-3.js-profile-editable-edit-button, #js-visitors-graph > h3, #js-clones-graph > h3, #repo-content-pjax-container > div > div.flex-shrink-0.col-12.col-md-9.mb-4.mb-md-0 > div.Subhead.hx_Subhead--responsive > div > details > summary, #repo-content-pjax-container > div > div.flex-shrink-0.col-12.col-md-9.mb-4.mb-md-0 > div:nth-child(5) > div, a.btn.btn-sm.btn-outline.mr-2, .Box.color-shadow-small, #repo-content-pjax-container > div > div.gutter-condensed.gutter-lg.flex-column.flex-md-row.d-flex > div.flex-shrink-0.col-12.col-md-3 > div > div:nth-child(3) > div > a, #edit_header_820598511 > div > button.btn.mr-2, #js-repo-pjax-container > div > div.col-12.col-sm-12.col-md-9.col-lg-10.col-xl-10 > div > div.d-flex.flex-items-center.mt-0.mb-md-3.mb-0.px-2.px-sm-0 > details > summary, #repo-content-pjax-container > div > div > div.Box, .Box-footer, .Box.Box--condensed, form.Popover-message.text-left, .Box.mt-3,  a.btn.ml-2.d-none.d-md-block, summary.btn.ml-2, summary.btn.css-truncate, summary.btn.btn-primary, button.btn.flex-self-end, a.btn.btn-sm, button.btn.ml-1, button.btn.mt-3.ml-3, input.btn.btn-sm, button.btn.btn-sm.js-details-target.d-inline-block.float-none.m-0.mr-md-0, .Box.mb-3, .Box.md, a.btn.d-none.d-md-inline-block, a.text-center.btn.btn-primary.ml-3, a.btn.btn-sm.btn-primary.m-0.ml-2.ml-md-2, a.btn.btn-danger.flex-auto.text-center.mx-3.mx-md-0, button.btn.btn-primary.js-blob-submit.flex-auto.mx-3.ml-md-3.mr-md-0.ml-lg-0.mb-3.mb-md-0, a.js-pjax-capture-input.btn.mr-2.d-none.d-md-block, a.btn.mr-2.d-none.d-md-block, span.btn.d-none.d-md-flex.flex-items-center, summary.btn.d-none.d-md-block.ml-md-2, button.js-file-clipboard.btn.btn-sm.BtnGroup-item.file-clipboard-button.tooltipped.tooltipped-s.js-enhanced-github-copy-btn, .Box.mt-4, .file.js-code-editor.container-preview.mx-lg-3.show-code, button.btn.btn-primary.BtnGroup-item.hx_create-pr-button.js-sync-select-menu-button, button.btn.float-left.js-add-gist-file, #js-issues-toolbar.Box.Box--responsive.hx_Box--firstRowRounded0, tab-container.js-previewable-comment-form.previewable-comment-form.write-selected, label.text-normal.drag-and-drop.hx_drag-and-drop.position-relative.d-flex.flex-justify-between, a.btn.width-full.text-center.mt-3, #user_profile_email, button.btn.js-add-new-user, input.btn.js-email-global-unsubscribe-submit, .Box.p-4.text-center, .saved-reply-form, .flash.flash-full.flash-error, #user_profile_spoken_language_preference_code, .gh-header-sticky.is-stuck+.gh-header-shadow, .range-editor.color-text-secondary.js-range-editor.is-cross-repo, .Box.Box--responsive, .Box.color-border-secondary.mb-2, .commit.full-commit.mt-0.px-2.pt-2, .Box.rounded-2, span.d-block.Box, .boxed-group-inner, .Box.border-top-0, .file.js-code-editor, .Box.color-bg-primary{
     border: none !important;
   } 
   #js-repo-pjax-container > div > div.col-12.col-sm-12.col-md-9.col-lg-10.col-xl-10 > div > div.d-flex.flex-items-center.mt-0.mb-md-3.mb-0.px-2.px-sm-0 > div.BtnGroup.mr-3.d-none.d-md-block.flex-shrink-0 > form:nth-child(1) > button{
@@ -210,7 +210,7 @@
   .dropdown-divider {
     border-top: #000;
   }
-  .dropdown-menu-sw:after {
+  .dropdown-menu-sw:after, ul.dropdown-menu.dropdown-menu-se::before  {
     border-bottom-color: var(--box-color);
   }
 
@@ -640,7 +640,6 @@
   .blob-code-inner .highlighted {
     background-color: var(--main-background-color);
   }
-
   .tabnav-tab {
     color: #ccc;
   }
@@ -664,12 +663,9 @@
   .Subhead {
     border-bottom: none;
   }
-  hr, hr::before, hr::after {
-    background-color: var(--input-color);
-    color: transparent !important;
-    height: 0.3px;
-    border: none;
-  }
+  #js-repo-pjax-container > div > div.d-none.d-md-flex.col-12.col-sm-12.col-md-3.col-lg-2.col-xl-2.flex-shrink-0.flex-grow-0 > nav > div.js-notification-sidebar-repositories > ul > li:nth-child(26), .js-notification-sidebar-repositories hr, .color-bg-primary.col-12.height-full.notification-navigation.pt-3.pb-6{
+    background-color:var(--main-background-color) !important;
+    }
   .markdown-body hr {
     height: 0.1em;
   }
@@ -728,8 +724,7 @@
     border-bottom: none;
     background-color: var(--input-color);
   }
-
-  .TimelineItem {
+ .TimelineItem {
     align-items: baseline;
     color: var(--text-color);
   }
@@ -740,7 +735,7 @@
     border: none;
   }
  #repo-content-pjax-container > div.js-navigation-container.js-active-navigation-container.mt-3 > div > div.TimelineItem-badge > svg, #discussion_bucket > div > div.flex-shrink-0.col-12.col-md-9.mb-4.mb-md-0 > div > div.js-discussion.js-socket-channel.ml-0.pl-0.ml-md-6.pl-md-3 > div > div > div > div > div.TimelineItem-badge > svg, #commits_bucket > div > div > div > div.TimelineItem-badge > svg{
-        color: var(--link-hover-color);
+    color: var(--link-hover-color);
     }
   .TimelineItem-body {
     color: var(--header-link-hover);
@@ -1170,42 +1165,42 @@
   tab-container {
     border: 1px solid var(--input-color);
   }
-  #repo-content-pjax-container > div > div.container-xl.mb-4.js-notice > div > div > details > summary > span, .color-bg-secondary.pt-3.hide-full-screen.mb-5, span.color-bg-canvas.pl-2.pr-3,.Progress.mt-1.tooltipped.tooltipped-n.color-bg-primary, .js-profile-timeline-year-list.color-bg-primary.js-sticky, .js-commit-preview.commit-preview, .file.js-code-editor, .d-flex.d-lg-block.flex-items-center, h3.h4-mktg.my-3, h3.h4-mktg, .border.rounded-1.color-shadow-medium.color-bg-primary, .border-bottom.color-bg-primary,  .color-bg-secondary, .thread-subscription-status.js-socket-channel.js-updatable-content, .MarketplaceBackground-buffer, span.color-bg-primary.pl-2.pr-3, .file, #indent-mode, #indent-size, #line-wrap-mode {
+  .color-bg-secondary.pt-3.hide-full-screen.mb-5, span.color-bg-canvas.pl-2.pr-3,.Progress.mt-1.tooltipped.tooltipped-n.color-bg-primary, .js-profile-timeline-year-list.color-bg-primary.js-sticky, .js-commit-preview.commit-preview, .file.js-code-editor, .d-flex.d-lg-block.flex-items-center, h3.h4-mktg.my-3, h3.h4-mktg, .border.rounded-1.color-shadow-medium.color-bg-primary, .border-bottom.color-bg-primary,  .color-bg-secondary, .thread-subscription-status.js-socket-channel.js-updatable-content, .MarketplaceBackground-buffer, span.color-bg-primary.pl-2.pr-3, .file, #indent-mode, #indent-size, #line-wrap-mode, .border-0.py-2.m-0.d-flex, p.h6.border-0.color-text-secondary.py-2.pl-2.m-0, .color-bg-info.f5.color-text-tertiary.text-bold.border.color-border-secondary.rounded-1.flex-shrink-0.text-center.mr-3 {
     background-color: var(--main-background-color) !important;
   }
-  .d-sm-flex.Box.mb-3.Box-body.color-bg-secondary, button.btn.btn-sm.tooltipped, article.my-4,  .border-top.color-bg-primary.p-3, .gh-header-shadow, a.notifications-dropdown-see-all, .topic-box.position-relative.hover-grow.height-full.text-center.border.color-border-secondary.rounded-1.color-bg-primary.p-5, .Popover-message.text-left.p-4.mt-2.mx-auto.Box.color-shadow-large.js-notice-dismiss, button.position.absolute.top-0.right-0.hover-grow.mt-3.mr-3.tooltipped.tooltipped-n.color-bg-primary.js-toggler-target.unstarred.js-remote-submit-button, .color-bg-info.f4.color-text-tertiary.text-bold.rounded-1.mr-3.flex-shrink-0.text-center, .color-bg-info.f4.color-text-tertiary.text-bold.rounded-1.flex-shrink-0.text-center, button.position-absolute.top-0.right-0.hover-grow.mt-3.mr-3.tooltipped.tooltipped-n.color-bg-primary.js-toggler-target.unstarred.js-remote-submit-button, .Popover-message.Popover-message--large.Box.color-shadow-large, .color-shadow-extra-large.rounded-1.color-bg-primary.d-md-flex.flex-items-center.p-6.mb-6.position-relative, .p-4.text-center.rounded-1.color-shadow-medium.mb-4.js-hero-listing-container.color-bg-primary, .tabnav-tabs.mx-0.mx-md-2.mt-0.mt-md-2.no-wrap.d-flex.flex-auto.d-md-block, .branch-action-body.timeline-comment--caret, #user_profile_spoken_language_preference_code, #user_profile_email, #primary_email_select, #backup_email_select, .saved-reply-form, .range-editor.color-text-secondary.js-range-editor.is-cross-repo, .col-12.col-lg-6.d-flex.css-truncate.flex-wrap, .boxed-group-inner, .position-absolute.color-bg-primary.rounded-2.color-text-primary.px-2.py-1.left-0.bottom-0.ml-2.mb-2.border, nav.SideNav, .Box.border-top-0, .file.js-code-editor, .Box.color-bg-primary {
+ #repo-content-pjax-container > div > div.container-xl.mb-4.js-notice > div > div > details > summary > span, .d-sm-flex.Box.mb-3.Box-body.color-bg-secondary, button.btn.btn-sm.tooltipped, article.my-4,  .border-top.color-bg-primary.p-3, .gh-header-shadow, a.notifications-dropdown-see-all, .topic-box.position-relative.hover-grow.height-full.text-center.border.color-border-secondary.rounded-1.color-bg-primary.p-5, .Popover-message.text-left.p-4.mt-2.mx-auto.Box.color-shadow-large.js-notice-dismiss, button.position.absolute.top-0.right-0.hover-grow.mt-3.mr-3.tooltipped.tooltipped-n.color-bg-primary.js-toggler-target.unstarred.js-remote-submit-button, .color-bg-info.f4.color-text-tertiary.text-bold.rounded-1.mr-3.flex-shrink-0.text-center, .color-bg-info.f4.color-text-tertiary.text-bold.rounded-1.flex-shrink-0.text-center, button.position-absolute.top-0.right-0.hover-grow.mt-3.mr-3.tooltipped.tooltipped-n.color-bg-primary.js-toggler-target.unstarred.js-remote-submit-button, .Popover-message.Popover-message--large.Box.color-shadow-large, .color-shadow-extra-large.rounded-1.color-bg-primary.d-md-flex.flex-items-center.p-6.mb-6.position-relative, .p-4.text-center.rounded-1.color-shadow-medium.mb-4.js-hero-listing-container.color-bg-primary, .tabnav-tabs.mx-0.mx-md-2.mt-0.mt-md-2.no-wrap.d-flex.flex-auto.d-md-block, .branch-action-body.timeline-comment--caret, #user_profile_spoken_language_preference_code, #user_profile_email, #primary_email_select, #backup_email_select, .saved-reply-form, .range-editor.color-text-secondary.js-range-editor.is-cross-repo, .col-12.col-lg-6.d-flex.css-truncate.flex-wrap, .boxed-group-inner, .position-absolute.color-bg-primary.rounded-2.color-text-primary.px-2.py-1.left-0.bottom-0.ml-2.mb-2.border, nav.SideNav, .Box.border-top-0, .file.js-code-editor, .Box.color-bg-primary, .col-12.col-md-6.col-lg-4.pr-2.float-left, .col-12.col-md-6.col-lg-8.float-left.markdown-body, ul.list-style-none.color-bg-tertiary.js-navigation-container.js-navigation-container-no-mouse.js-active-navigation-container, li.notifications-list-item.p-0.pl-2.pb-2.pb-md-0.position-relative {
     background-color: var(--box-color) !important;
   }
-     .tabnav.px-3.mb-0 {
+  .tabnav.px-3.mb-0 {
     background-color: var(--header-background-color) !important;
   }
-    .notifications-dropdown-arrow {
-        border-bottom-color:var(--main-background-color);
+  .notifications-dropdown-arrow {
+    border-bottom-color:var(--main-background-color);
   }
-    .position-absolute.right-0.left-0.bottom-0.text-center.mb-n3 {
-        background: linear-gradient(to top, #171A20, #11121600) !important;
+  .position-absolute.right-0.left-0.bottom-0.text-center.mb-n3 {
+    background: linear-gradient(to top, #171A20, #11121600) !important;
   }
-    .page-responsive .timeline-comment--caret:before{
-        display:none;
-  }/*
-    .page-responsive .timeline-comment--caret:after{
-       color:var(--box-color) !important
-  }*/
-    .avatar {
-        line-height:0px;
-        box-shadow:none;
+  .page-responsive .timeline-comment--caret:before {
+    display:none;
+  }
+  .avatar {
+    line-height:0px;
+    box-shadow:none;
     }
-    .tabnav-tabs {
-        border-bottom-left-radius: 6px;
-        border-bottom-right-radius: 6px;
-        border-top-left-radius: 6px;
-        border-top-right-radius: 6px;
+  .tabnav-tabs {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
     }
-    .border-bottom.color-bg-secondary.p-3.position-absolute.top-0.left-0.width-full {
-        border-bottom-left-radius: 6px;
-        border-bottom-right-radius: 6px;
-        border-top-left-radius: 6px;
-        border-top-right-radius: 6px;
-        background-color: var(--header-background-color) !important;
+  .border-bottom.color-bg-secondary.p-3.position-absolute.top-0.left-0.width-full {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: var(--header-background-color) !important;
+    }
+  .page-responsive .timeline-comment--caret:after {
+    border-right-color: var(--header-background-color);
     }
   }
