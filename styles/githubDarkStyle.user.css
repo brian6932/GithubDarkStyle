@@ -62,19 +62,20 @@
     border-top:none;
     border-bottom:none;
     border-left:none;
-    } 
+  } 
   #js-repo-pjax-container > div > div.col-12.col-sm-12.col-md-9.col-lg-10.col-xl-10 > div > div.d-flex.flex-items-center.mt-0.mb-md-3.mb-0.px-2.px-sm-0 > div.BtnGroup.mr-3.d-none.d-md-block.flex-shrink-0 > form:nth-child(2) > button, #js-repo-pjax-container > div > div.col-12.col-sm-12.col-md-9.col-lg-10.col-xl-10 > div > div.d-flex.flex-md-row.flex-column.flex-items-center.width-full.pb-6.pt-4.pt-md-0.mb-6.mb-md-0.f6.flex-auto.flex-justify-end.flex-shrink-0 > nav > a {
     border-top:none !important;
     border-bottom:none !important;
     border-right:none !important;
-    }  
+  }
+    
   #js-visitors-graph > h3, #js-clones-graph > h3{
     background-color: var(--header-background-color) 
-    }
+  }
   a.btn.ml-2.d-none.d-md-block, summary.btn.ml-2, summary.btn.css-truncate{
     padding-top: 6px;
     padding-bottom: 6px;
-    } 
+  } 
   .Box-header {
     border-bottom: 0px;
     background-color: #1a1e26 !important ;
@@ -195,6 +196,9 @@
     background-color: var(--box-color);
     border: none;
   }
+  .dropdown-menu.dropdown-menu-ne.ml-n2::after{
+    display:none;
+  }  
   .notifications-dropdown-arrow {
     border-bottom: 10px solid var(--box-color);
   }
@@ -222,7 +226,10 @@
   }
   .dropdown-menu-ne:after {
     border-top: 7px solid var(--box-color);
-    }
+  }
+  .dropdown-menu-ne:before {
+    border-top: 8px solid var(--box-color);
+  }
   .dropdown-menu:after {
     border-bottom: 7px solid var(--box-color);
   } 
@@ -748,7 +755,7 @@
   }
  #repo-content-pjax-container > div.js-navigation-container.js-active-navigation-container.mt-3 > div > div.TimelineItem-badge > svg, #discussion_bucket > div > div.flex-shrink-0.col-12.col-md-9.mb-4.mb-md-0 > div > div.js-discussion.js-socket-channel.ml-0.pl-0.ml-md-6.pl-md-3 > div > div > div > div > div.TimelineItem-badge > svg, #commits_bucket > div > div > div > div.TimelineItem-badge > svg{
     color: var(--link-hover-color);
-    }
+  }
   .TimelineItem-body {
     color: var(--header-link-hover);
   }
@@ -1195,13 +1202,13 @@
   .avatar {
     line-height:0px;
     box-shadow:none;
-    }
+  }
   .tabnav-tabs {
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
-    }
+  }
   .border-bottom.color-bg-secondary.p-3.position-absolute.top-0.left-0.width-full {
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
