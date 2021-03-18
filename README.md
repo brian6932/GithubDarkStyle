@@ -13,12 +13,12 @@ _A minmal and clean dark theme for GitHub_
 
 ### Installation
 
-*step 1:*
+*1:*
 
 - Install *Stylus* for either Firefox or Chrome:
   * [Stylus for Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)
   * [Stylus for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)  
 
-*step 2*:
+*2:*
 
 - [Click to  Install the usercss script](https://raw.githubusercontent.com/brian6932/GithubDarkStyle/master/styles/githubDarkStyle.user.css)
