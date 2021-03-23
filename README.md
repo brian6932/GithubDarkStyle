@@ -1,4 +1,6 @@
-![](assets/gds.png)
+<p align="center">
+  <img src="assets/gds.png" />
+</p>
 
 ## GithubDarkStyle
 
@@ -6,7 +8,7 @@ _A minmal and clean dark theme for GitHub_
 
 ### Disclaimer
 
-**_Use with the native GitHub dark theme, not by itself_**
+**_Use with the native GitHub default dark theme, not by itself_**
 
 ![](assets/profile-screenshot.png)
 ![](assets/org-screenshot.png)
