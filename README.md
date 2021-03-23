@@ -1,17 +1,23 @@
 <p align="center">
-  <img src="assets/gds.png" />
+  <img width="600"
+       src="assets/gds.png">
 </p>
 
-## GithubDarkStyle
-
-_A minmal and clean dark theme for GitHub_
+<h1 align="center">A minmal and clean dark theme for GitHub</h1>
 
 ### Disclaimer
 
 **_Use with the native GitHub default dark theme, not by itself_**
 
-![](assets/profile-screenshot.png)
-![](assets/org-screenshot.png)
+<p align="center">
+  <img width="900"
+       src="assets/profile-screenshot.png">
+</p>
+
+<p align="center">
+  <img width="900"
+       src="assets/org-screenshot.png">
+</p>
 
 ### Installation
 
