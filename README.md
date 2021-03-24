@@ -29,4 +29,4 @@
 
 **2:**
 
-- [Click to  Install the UserCSS script](https://raw.githubusercontent.com/brian6932/GithubDarkStyle/master/styles/githubDarkStyle.user.css)
+- [Click to  install the UserCSS script](https://raw.githubusercontent.com/brian6932/GithubDarkStyle/master/styles/githubDarkStyle.user.css)
