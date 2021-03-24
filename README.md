@@ -1,6 +1,5 @@
 <p align="center">
-  <img width="600"
-       src="assets/gds.png">
+  <img src="assets/gds.png" />
 </p>
 
 <h1 align="center">A minimal and clean dark theme for GitHub</h1>
@@ -24,7 +23,7 @@
 **1:**
 
 - Install [*Stylus*](https://github.com/openstyles/stylus) for either Firefox or Chrome:
-  * [Stylus for Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)
+  * [Stylus for Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en) (or [beta](https://chrome.google.com/webstore/detail/stylus-beta/apmmpaebfobifelkijhaljbmpcgbjbdo))
   * [Stylus for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)  
 
 **2:**
