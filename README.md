@@ -23,7 +23,7 @@
 **1:**
 
 - Install [*Stylus*](https://github.com/openstyles/stylus) for either Firefox or Chrome:
-  * [Stylus for Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en) (or [beta](https://chrome.google.com/webstore/detail/stylus-beta/apmmpaebfobifelkijhaljbmpcgbjbdo))
+  * [Stylus for Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) (or [beta](https://chrome.google.com/webstore/detail/stylus-beta/apmmpaebfobifelkijhaljbmpcgbjbdo))
   * [Stylus for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)  
 
 **2:**
