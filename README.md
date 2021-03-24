@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/gds.png" />
+  <img src="assets/gdsv2.png" />
 </p>
 
 <h1 align="center">A minimal and clean dark theme for GitHub</h1>
