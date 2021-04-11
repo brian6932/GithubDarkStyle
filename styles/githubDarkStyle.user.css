@@ -567,7 +567,7 @@
   a[data-hydro-click] {
     font-size: 1em;
   }
-  img.avatar-user.avatar.avatar--small, #user-links > details > summary > img  {
+  #user-links > details > summary > img, img.avatar.avatar-small  {
     height: 2em;
     width: 2em;
     margin-right: 0.5em;
