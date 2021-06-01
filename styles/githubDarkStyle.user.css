@@ -734,7 +734,7 @@
     border: 1px solid var(--highlight-color);
     padding: 1em;
   }
-  .discussion-comment.timeline-comment.unminimized-comment.comment.previewable-edit.js-task-list-container.flex-auto.box-shadow-none.js-comment.reorderable-task-lists {
+  .discussion-comment.timeline-comment.unminimized-comment.comment.previewable-edit.js-task-list-container.flex-auto.box-shadow-none.js-comment.reorderable-task-lists, .timeline-comment.unminimized-comment.comment.previewable-edit.js-task-list-container.flex-auto.box-shadow-none.js-comment.reorderable-task-lists {
     background-color: var(--main-background-color);
     border: 1px solid var(--highlight-color);
   }
@@ -750,7 +750,7 @@
     opacity: 1;
     color: #ccc;
   }
-  .timeline-comment:not(.discussion-comment) {
+  .timeline-comment {
     border: none;
   }
   .timeline-comment {
@@ -1272,7 +1272,7 @@
   form.ajax-pagination-form.js-ajax-pagination.pagination-loader-container.mt-4.mb-4.ml-0.text-center {
     background-color:transparent; 
   }
-  span.color-bg-secondary.position-absolute.top-0.left-0.width-full.height-full.rounded-1, .col-12 {
+  span.color-bg-secondary.position-absolute.top-0.left-0.width-full.height-full.rounded-1, .col-12:not(input) {
     background-color: transparent !important;
   }
 }
