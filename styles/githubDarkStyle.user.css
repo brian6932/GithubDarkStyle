@@ -202,6 +202,11 @@
   .notifications-dropdown-arrow {
     border-bottom: 10px solid var(--box-color);
   }
+  .notifications-dropdown {
+    border: 1px solid var(--box-color);
+	border-radius: 10px;
+	 z-index:91;
+  }
   .Popover-message--bottom-left:after, .Popover-message--bottom-right:after, .Popover-message--bottom:after {
     border-top-color: var(--box-color);
   }
@@ -1215,7 +1220,7 @@
  .commit-form::after, .commit-form::before {
 	  background:var(--box-color);
   }  
-  .tabnav.px-3.mb-0, .hide-sm.position-relative.p-sm-2, .flex-justify-between.color-bg-primary.js-sticky.js-position-sticky, .color-bg-tertiary.p-3.border-bottom {
+  .tabnav.px-3.mb-0, .hide-sm.position-relative.p-sm-2, .flex-justify-between.color-bg-primary.js-sticky.js-position-sticky, .color-bg-tertiary.p-3.border-bottom, .Box-row.Box-row--gray {
     background-color: var(--header-background-color) !important;
   }
   .position-absolute.right-0.left-0.bottom-0.text-center.mb-n3 {
@@ -1269,5 +1274,8 @@
   }
   .comment-body.markdown-body.js-preview-body {
     border-radius: 10px;
+  }
+  .border-top.border-bottom.border-gray-light {
+    background: var(--main-background-color) !important;
   }
 }
